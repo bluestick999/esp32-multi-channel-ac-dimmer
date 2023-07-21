@@ -118,7 +118,7 @@ void loop() {
   }
   if (cycle == 7) {
     if (test_count >= test_transitiion) {
-      tar_dim_per[0] = 0; tar_dim_per[1] = 0; tar_dim_per[2] = 0; tar_dim_per[3] = 0; ar_dim_per[4] = 0; tar_dim_per[5] = 0; tar_dim_per[6] = 0; tar_dim_per[7] = 0;
+      tar_dim_per[0] = 0; tar_dim_per[1] = 0; tar_dim_per[2] = 0; tar_dim_per[3] = 0; tar_dim_per[4] = 0; tar_dim_per[5] = 0; tar_dim_per[6] = 0; tar_dim_per[7] = 0;
       test_count = 0;
       cycle++;
     }
